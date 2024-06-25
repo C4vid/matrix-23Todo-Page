@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form {
+  margin-bottom: 20px;
+}
+
+#input-name {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+
+#form button {
+  background-color: #4CAF50;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 30px;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#form button:hover {
+  background-color: #3e8e41;
+}
+
+#to-do-list {
+  list-style: none;
+}
+
+#to-do-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+#to-do-list span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#to-do-list button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#to-do-list button:hover {
+  background-color: #eee;
+}
+
+#to-do-list button.delete {
+  background-color: #f50000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+#item-count{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
